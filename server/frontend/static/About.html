@@ -1,8 +1,10 @@
 <html>
 <head>
   <!-- Link the style sheet here -->
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
 </head>
-<div>
+<body>
   <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
     <div class="container-fluid">
       <h2 style="padding-right: 5%;">Dealerships</h2>
@@ -25,44 +27,48 @@
     </div>
   </nav>
   
-    <div class="card" style="width: 80%;margin: auto; margin-top:5%;">
-      <div class="banner" name="about-header">
-      <!-- Insert header information here -->
-      </div>
-      <div style="display: flex;flex-direction: row; margin:auto">
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person1</p>
-          <p>Person1 Title</p>
-          <p class="card-text">Some text that explains the person1 in about 2 short sentences</p>
-          <p>person1@example.com</p>
+  <div class="card" style="width: 80%; margin: auto; margin-top:5%; padding: 2%;">
+    <div class="banner" name="about-header" style="text-align:center; margin-bottom: 20px;">
+      <h2>About Our Dealership</h2>
+      <p>We are committed to delivering the best car buying and servicing experience. With decades of expertise in the automotive industry, our team ensures you find the right vehicle that matches your lifestyle and budget.</p>
+    </div>
+
+    <div style="display: flex; flex-direction: row; justify-content: space-around; flex-wrap: wrap; margin:auto;">
+
+      <!-- Dealer Principal -->
+      <div class="card" style="width: 30%; margin:10px;">
+        <img class="card-img-top" src="/static/person.png" alt="Dealer Principal">
+        <div class="card-body" style="text-align:center;">
+          <p class="title"><b>John Anderson</b></p>
+          <p>Dealer Principal</p>
+          <p class="card-text">Over 20 years of experience in the automotive sector. Dedicated to bringing customers the best deals and services.</p>
+          <p>john.anderson@dealership.com</p>
         </div>
       </div>
 
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person2</p>
-          <p>Person2 Title</p>
-          <p class="card-text">Some text that explains the person2 in about 2 short sentences</p>
-          <p>person2@example.com</p>
+      <!-- Sales Manager -->
+      <div class="card" style="width: 30%; margin:10px;">
+        <img class="card-img-top" src="/static/person.png" alt="Sales Manager">
+        <div class="card-body" style="text-align:center;">
+          <p class="title"><b>Sarah Lee</b></p>
+          <p>Sales Manager</p>
+          <p class="card-text">Specializes in helping customers choose the right car. Focused on delivering a smooth and stress-free buying process.</p>
+          <p>sarah.lee@dealership.com</p>
         </div>
       </div>
 
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person3</p>
-          <p>Person3 Title</p>
-          <p class="card-text">Some text that explains the person3 in about 2 short sentences</p>
-          <p>person3@example.com</p>
+      <!-- Service Manager -->
+      <div class="card" style="width: 30%; margin:10px;">
+        <img class="card-img-top" src="/static/person.png" alt="Service Manager">
+        <div class="card-body" style="text-align:center;">
+          <p class="title"><b>Michael Brown</b></p>
+          <p>Service Manager</p>
+          <p class="card-text">Ensures vehicles are serviced with top-quality care. Strives to keep every customer’s car in excellent condition.</p>
+          <p>michael.brown@dealership.com</p>
         </div>
       </div>
-    </div>
-    </div>
-    </div>
-    
-</div>
 
+    </div>
+  </div>
+</body>
 </html>
